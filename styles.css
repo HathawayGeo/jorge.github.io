@@ -1,0 +1,173 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body .home {
+  text-align: center;
+  min-height: 100vh;
+}
+body .home .caja_home {
+  position: relative;
+  z-index: 2;
+  margin-top: 170px;
+}
+body .home .caja_home h1 {
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  color: white;
+}
+body .home .caja_home p {
+  font-size: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 20px;
+  font-weight: 100;
+  color: white;
+}
+body .home .caja_home button {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 35px;
+  background: rgba(255, 255, 255, 0);
+  border: 3px solid white;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+body .home .caja_home button a {
+  text-decoration: none;
+  color: white;
+}
+body .home .caja_home button:hover {
+  border: 3px solid white;
+  background-color: white;
+}
+body .home .caja_home button:hover a {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+body .home video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /*Para hacer el video responsive*/
+}
+body .home .capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  mix-blend-mode: overplay;
+  /*Escurecer el video*/
+}
+body .about {
+  text-align: center;
+}
+body .about h2 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #001e2f;
+  padding-bottom: 40px;
+  margin-top: -110px;
+}
+body .about p {
+  display: block;
+  margin: 0px auto;
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  line-height: 26px;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+body .technolgies {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+body .technolgies h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #001e2f;
+  padding: 40px 40px;
+}
+body .technolgies img {
+  width: 100px;
+}
+body .technolgies p {
+  font-family: "Poppins", sans-serif;
+}
+body .technolgies .container__technolgies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto;
+}
+body .technolgies .container__technolgies .caja {
+  margin: 20px;
+}
+body .works {
+  text-align: center;
+}
+body .works h4 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #001e2f;
+  padding: 40px 40px;
+}
+body .works img {
+  width: 350px;
+  height: 250px;
+  box-shadow: #a1a1a1 8px 8px 8px 4px;
+}
+body .works p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 17px;
+}
+body .works a {
+  text-decoration: none;
+  color: black;
+}
+body .works .container__works {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+body .works .container__works .caja {
+  margin: 15px;
+}
+body footer {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+body footer h5 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #001e2f;
+  padding: 40px 10px;
+}
+body footer p {
+  font-family: "Poppins", sans-serif;
+}
+body footer img {
+  width: 50px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+body footer .cajas {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
